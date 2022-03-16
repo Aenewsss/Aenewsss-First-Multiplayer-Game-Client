@@ -1,0 +1,41 @@
+.rooms{
+    text-align: center;
+    width: 33%;
+    div{
+        margin-top: 5px; 
+        border: 1px solid black; 
+        border-radius: 10px; 
+        width: 220px; 
+        margin-left: auto; 
+        margin-right: auto;
+        .full-room{
+            margin-left: 6px;
+            background-color: #fe3a32; 
+            padding: 0 2px 0 2px; 
+            border: 2px solid #af0000; 
+            border-radius: 5px ;
+        }
+        .button-join-room{
+            margin-left: 2px;
+        }
+    }
+}
+
+.existing-room{
+    text-align: center;
+    width: 33%;
+    .leave-room-button{
+        margin-left: 2px;
+    }
+}
+
+@media only screen and(max-width:900px) {
+    .rooms{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .existing-room{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
